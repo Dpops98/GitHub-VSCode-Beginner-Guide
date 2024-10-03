@@ -1,4 +1,4 @@
-# trial
+# Trial
 Goal of the Project:
 
 The goal of this project is to help beginners understand how to push code to GitHub using VS Code step-by-step. This guide includes:
