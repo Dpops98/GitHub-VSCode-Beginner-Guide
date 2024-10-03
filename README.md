@@ -32,20 +32,19 @@ Verify Git Installation:
 
 Step 2: Configure Git
 
-    Open the terminal in VS Code (Ctrl + ~).
-    Set up your Git username and email (Git uses these to track changes):
+Open the terminal in VS Code (Ctrl + ~).
+Set up your Git username and email (Git uses these to track changes):
 
     git config --global user.name "Your Name"
     git config --global user.email "your-email@example.com"
 
 Step 3: Create Your Project
 
-    Create a Folder named HelloWorld for your project.
-    Open the folder in VS Code:
-        Go to File > Open Folder and select the folder you just created.
-    Create a New File named hello.py:
+Create a Folder named HelloWorld for your project.
+Open the folder in VS Code:
+    Go to File > Open Folder and select the folder you just created.
+Create a New File named hello.py:
 
-    python
 
     print("Hello, World!")
 
