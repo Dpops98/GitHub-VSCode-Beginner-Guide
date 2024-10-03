@@ -19,7 +19,7 @@ Step 1: Install Git
 
 Linux: Open a terminal and run:
 
-sudo apt-get install git
+    sudo apt-get install git
 
 Windows: Download and install Git from https://git-scm.com/download/win.
 Mac: Install Git with:
