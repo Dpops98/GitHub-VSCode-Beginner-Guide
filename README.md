@@ -17,14 +17,14 @@ Prerequisites
 Steps to Set Up VS Code to Push Code to GitHub
 Step 1: Install Git
 
-    Linux: Open a terminal and run:
+Linux: Open a terminal and run:
 
 sudo apt-get install git
 
 Windows: Download and install Git from https://git-scm.com/download/win.
 Mac: Install Git with:
 
-brew install git
+    brew install git
 
 Verify Git Installation:
 
@@ -50,14 +50,14 @@ Create a New File named hello.py:
 
 Step 4: Initialize a Git Repository Locally
 
-    Open the terminal in VS Code.
-    Initialize Git in your folder:
+Open the terminal in VS Code.
+Initialize Git in your folder:
 
-git init
+    git init
 
 Add the file to staging:
 
-git add hello.py
+    git add hello.py
 
 Commit the file:
 
@@ -72,34 +72,34 @@ Step 5: Create a GitHub Repository
 
 Step 6: Link the Local Repository to GitHub
 
-    Copy the Repository URL from GitHub (it will look like https://github.com/your-username/HelloWorld.git).
-    Add the Remote Repository to your local setup:
+Copy the Repository URL from GitHub (it will look like https://github.com/your-username/HelloWorld.git).
+Add the Remote Repository to your local setup:
 
-git remote add origin https://github.com/your-username/HelloWorld.git
-git branch -M main
+    git remote add origin https://github.com/your-username/HelloWorld.git
+    git branch -M main
 
 Push Your Changes:
 
     git push -u origin main
 
-        Note: If you get an error like "Updates were rejected", follow Step 7.
+Note: If you get an error like "Updates were rejected", follow Step 7.
 
 Step 7: Resolving Errors When Pushing to GitHub
 
 If you get an error saying that "updates were rejected", it means GitHub already has files you don't have locally (e.g., a README.md). You need to pull those changes before you can push.
 
-    Pull Changes from GitHub:
+Pull Changes from GitHub:
 
-git pull origin main --allow-unrelated-histories
+    git pull origin main --allow-unrelated-histories
 
 If you see an error saying "Need to specify how to reconcile divergent branches," run:
 
-git pull origin main --allow-unrelated-histories --no-rebase
+    git pull origin main --allow-unrelated-histories --no-rebase
 
 Resolve Any Merge Conflicts:
 
-    If there are conflicts, VS Code will show them. Edit the files to resolve the conflicts.
-    Add and Commit the resolved changes:
+If there are conflicts, VS Code will show them. Edit the files to resolve the conflicts.
+Add and Commit the resolved changes:
 
     git add .
     git commit -m "Resolved merge conflicts"
@@ -110,18 +110,18 @@ Push Your Changes:
 
 Step 8: Automate Future Updates
 
-    When you make changes, you need to add, commit, and push again:
-        Stage the changes:
+When you make changes, you need to add, commit, and push again:
+Stage the changes:
 
-git add .
+    git add .
 
 Commit the changes:
 
-git commit -m "Updated code"
+    git commit -m "Updated code"
 
 Push the changes:
 
-        git push origin main
+    git push origin main
 
 Summary
 
